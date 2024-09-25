@@ -44,7 +44,7 @@ document.getElementById('btn-donate-money')
                 console.log(removeMoney);
 
                 if(isNaN(removeMoney)){
-                    alert('Failed to donate money!');
+                    alert('Failed to remove money from account!');
                     return;
                 }
 
@@ -102,7 +102,7 @@ document.getElementById('btn-donate-money')
                 console.log(removeMoney);
 
                 if(isNaN(removeMoney)){
-                    alert('Failed to donate money!');
+                    alert('Failed to remove money from account!');
                     return;
                 }
 
@@ -160,7 +160,7 @@ document.getElementById('btn-donate-money')
                 console.log(removeMoney);
 
                 if(isNaN(removeMoney)){
-                    alert('Failed to fund your money!');
+                    alert('Failed to fund your money from account!');
                     return;
                 }
 
@@ -220,7 +220,7 @@ document.getElementById('btn-donate-money')
                 console.log(removeMoney);
 
                 if(isNaN(removeMoney)){
-                    alert('Failed to fund your money!');
+                    alert('Failed to fund your money from account!');
                     return;
                 }
 
