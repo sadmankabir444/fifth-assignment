@@ -5,7 +5,10 @@ document.getElementById('btn-donate-money')
         const addMoneyInput = document.getElementById('input-add-money').value;
         console.log(addMoneyInput);
 
-        
+        if(isNaN(addMoneyInput)){
+            alert('Failed to donate money!');
+            return;
+        }
 
         const balance = document.getElementById('donation-balance').innerText;
         console.log(balance);
@@ -40,6 +43,11 @@ document.getElementById('btn-donate-money')
                 const removeMoneyNumber = parseFloat(removeMoney);
                 console.log(removeMoney);
 
+                if(isNaN(removeMoney)){
+                    alert('Failed to donate money!');
+                    return;
+                }
+
                 const balance = document.getElementById('account-balance').innerText;
                 const balanceNumber = parseFloat(balance);
 
@@ -57,6 +65,11 @@ document.getElementById('btn-donate-money')
                 const addMoneyInput = document.getElementById('input-add-balance').value;
                 console.log(addMoneyInput);
 
+                if(isNaN(addMoneyInput)){
+                    alert('Failed to donate money!');
+                    return;
+                }
+
                 const balance = document.getElementById('donation-money').innerText;
                 console.log(balance);
 
@@ -70,7 +83,7 @@ document.getElementById('btn-donate-money')
                 const div = document.createElement('div');
                 div.classList.add('bg-slate-100');
                 div.innerHTML = `
-                <p class="mx-5 my-4 px-10 py-8">${addMoneyInput} Tk Donate for Flood at Noakhali.
+                <p class="mx-5 my-4 px-10 py-8">${addMoneyInput} Tk Donate for Flood at Feni.
                 
                 
                 `
@@ -87,6 +100,11 @@ document.getElementById('btn-donate-money')
                 const removeMoney = document.getElementById('input-add-balance').value;
                 const removeMoneyNumber = parseFloat(removeMoney);
                 console.log(removeMoney);
+
+                if(isNaN(removeMoney)){
+                    alert('Failed to donate money!');
+                    return;
+                }
 
                 const balance = document.getElementById('account-balance').innerText;
                 const balanceNumber = parseFloat(balance);
@@ -106,6 +124,11 @@ document.getElementById('btn-donate-money')
                 const addMoneyInput = document.getElementById('input-fund-money').value;
                 console.log(addMoneyInput);
 
+                if(isNaN(addMoneyInput)){
+                    alert('Failed to fund your money!');
+                    return;
+                }
+
                 const balance = document.getElementById('funding-balance').innerText;
                 console.log(balance);
 
@@ -119,7 +142,7 @@ document.getElementById('btn-donate-money')
                 const div = document.createElement('div');
                 div.classList.add('bg-slate-100');
                 div.innerHTML = `
-                <p class="mx-5 my-4 px-10 py-8">${addMoneyInput} Tk Donate for Flood at Noakhali.
+                <p class="mx-5 my-4 px-10 py-8">${addMoneyInput} Tk Funding for quota reform movement.
                 
                 
                 `
@@ -135,6 +158,11 @@ document.getElementById('btn-donate-money')
                 const removeMoney = document.getElementById('input-fund-money').value;
                 const removeMoneyNumber = parseFloat(removeMoney);
                 console.log(removeMoney);
+
+                if(isNaN(removeMoney)){
+                    alert('Failed to fund your money!');
+                    return;
+                }
 
                 const balance = document.getElementById('account-balance').innerText;
                 const balanceNumber = parseFloat(balance);
@@ -155,6 +183,11 @@ document.getElementById('btn-donate-money')
                 const addMoneyInput = document.getElementById('input-fund-balance').value;
                 console.log(addMoneyInput);
 
+                if(isNaN(addMoneyInput)){
+                    alert('Failed to fund your money!');
+                    return;
+                }
+
                 const balance = document.getElementById('funding-money').innerText;
                 console.log(balance);
 
@@ -168,7 +201,7 @@ document.getElementById('btn-donate-money')
                 const div = document.createElement('div');
                 div.classList.add('bg-slate-100');
                 div.innerHTML = `
-                <p class="mx-5 my-4 px-10 py-8">${addMoneyInput} Tk Donate for Flood at Noakhali.
+                <p class="mx-5 my-4 px-10 py-8">${addMoneyInput} Tk Funding for quota reform movement.
                 
                 
                 `
@@ -185,6 +218,11 @@ document.getElementById('btn-donate-money')
                 const removeMoney = document.getElementById('input-fund-balance').value;
                 const removeMoneyNumber = parseFloat(removeMoney);
                 console.log(removeMoney);
+
+                if(isNaN(removeMoney)){
+                    alert('Failed to fund your money!');
+                    return;
+                }
 
                 const balance = document.getElementById('account-balance').innerText;
                 const balanceNumber = parseFloat(balance);
